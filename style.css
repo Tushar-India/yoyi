@@ -1,17 +1,65 @@
+/* style.css */
+
+/* Style for the body */
+body {
+    background-color: #f0f0f0; /* Light gray background for better contrast */
+    font-family: Arial, sans-serif; /* Modern, clean font */
+    color: #333; /* Dark gray text color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main heading */
 h1 {
-    color: red;
-    background-color: #00ff00;
+    color: #d32f2f; /* Dark red color */
+    background-color: #e0f2f1; /* Light teal background */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align text */
 }
+
+/* Style for subheadings */
 h2 {
-    color: green;
+    color: #388e3c; /* Dark green color */
+    margin-top: 0; /* Remove top margin */
+    text-align: center; /* Center align text */
 }
+
+/* Style for paragraphs */
 p {
-    color: rgb(228, 57, 57);
+    color: #c62828; /* Bright red color */
+    line-height: 1.6; /* Improve readability with line height */
+    padding: 0 20px; /* Add padding to the left and right */
 }
-button{
-    color:#3C3D37;
-    background-color:rgb(255,0,0);
+
+/* Style for buttons */
+button {
+    color: #fff; /* White text color */
+    background-color: #e53935; /* Bright red background */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button size */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+    display: block; /* Block display */
+    margin: 20px auto; /* Center align button with margin */
 }
-body{
-    background-color:white;
+
+/* Style for links */
+a {
+    color: #1e88e5; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for images */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block display */
+    margin: 20px auto; /* Center align image */
 }
